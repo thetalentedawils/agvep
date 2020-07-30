@@ -1,0 +1,66 @@
+@import "normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+/* CSS files add styling rules to your content */
+
+body {
+/*   font-family: helvetica, arial, sans-serif; */
+/*   margin: 2em; */
+/*   font-family: 'Lobster', cursive; */
+  font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+div {
+/*   background-image: url(https://picsum.photos/800/300); */
+}
+/* class="nobg" */
+.nobg {
+  background-image: none;
+}
+/*  class="fontcolor" */
+.fontcolor {
+  /*   color: rgb(0,0,0); */
+  color: #eaef26;
+  background-color: red !important;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+/* parent child */
+p a {
+  display: block;
+}
+p .center {
+  text-align: center;
+}
+/* nav {
+  border: 2px solid green;
+}
+ */
+img {
+  display: block;
+}
+/* class="row" */
+.row {
+  display: flex;
+}
+.row img {
+  display: block;
+}
